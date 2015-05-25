@@ -41,7 +41,8 @@
 }
 
 // метод возращает массив с введенными значениями и добавляет его в коредату
-- (NSMutableArray *) getData: (NSString * ) entityName Key: (NSString *) key {
+
+- (NSArray *) getData: (NSString * ) entityName Key: (NSString *) key {
 
     NSMutableArray * array = [[NSMutableArray alloc] init];
 

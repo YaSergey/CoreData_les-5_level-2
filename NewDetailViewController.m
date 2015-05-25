@@ -41,7 +41,7 @@
 - (IBAction)showImage:(id)sender {
 
     CoreDataWrater * core = [CoreDataWrater new];
-    NSData * data = [core get_NSData:@"Person" Key:@"data"];
+    NSData * data = [core get_NSData:@"UserProfile" Key:@"data"];
     
     NSDictionary * dict = [NSKeyedUnarchiver unarchiveObjectWithData:data];
     

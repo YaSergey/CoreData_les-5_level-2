@@ -13,7 +13,7 @@
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 
-//- (void) reloadTableView;
+- (void) reloadTableView;
 
 @end
 

@@ -42,11 +42,11 @@
 
     
     CoreDataWrater * core = [CoreDataWrater new];
-    [core saveData:@"Person" Value:textField.text For_Key:@"name"];
+    [core saveData:@"UserProfile" Value:textField.text For_Key:@"userName"];
     
     
-    ViewController * reloadTable = [ViewController new];
-    [reloadTable reloadTableView ];
+//    ViewController * reloadTable = [ViewController new];
+//    [reloadTable reloadTableView ];
     
     return YES;
 

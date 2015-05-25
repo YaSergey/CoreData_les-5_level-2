@@ -54,7 +54,7 @@
     NSData * data = [NSKeyedArchiver archivedDataWithRootObject:dict];
     
     CoreDataWrater * core = [CoreDataWrater new];
-    [core saveNSData:@"Person" Value:data Key:@"data"];
+    [core saveNSData:@"UserProfile" Value:data Key:@"data"];
     
 }
 @end

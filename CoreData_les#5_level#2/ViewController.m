@@ -39,9 +39,9 @@
    
     CoreDataWrater * core = [CoreDataWrater new];
     
-    self.arrayEvents = [core getData:@"Person" Key:@"Name"]; 
+    self.arrayEvents = [core getData:@"UserProfile" Key:@"userName"];
     
-    NSLog(@"core= %@", [core getData:@"Person" Key:@"Name"]);
+    NSLog(@"core= %@", [core getData:@"UserProfile" Key:@"userName"]);
     
     [self.tableView reloadData];
 
